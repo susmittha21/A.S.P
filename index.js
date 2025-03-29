@@ -9,7 +9,7 @@ app.use(express.json());
 const PORT = 8000
 
 app.get("/", (req, res) => {
-    res.json({ message: 'Server is running' });
+    res.json({ message: 'Server is up and running' });
 });
 
 app.post("/signup", (req, res) => {
